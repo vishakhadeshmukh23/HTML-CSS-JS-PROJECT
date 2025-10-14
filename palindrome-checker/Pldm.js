@@ -20,7 +20,3 @@ function checkPalindrome() {
 }
 
 
-
-function checkPalindrome(){
-  let 
-}

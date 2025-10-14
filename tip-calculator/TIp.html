@@ -9,18 +9,20 @@
 <body>
     <div class="container">
         <h1 class="heading">Tip Calculator</h1>
-        <p>Enter the bill amount and thip percentage to calculate the totle.</p>
-        <label for="Bill">Bill amount:</label>
-        <input type="number" class="for">
+        <p>Enter the bill amount and tip percentage to calculate the total.</p>
 
-        <label for="tip">Tip percentage:</label>
-        <input type="number" class="per" >
+        <label>Bill amount:</label>
+        <input type="number" class="for" placeholder="Enter bill amount">
+
+        <label>Tip percentage:</label>
+        <input type="number" class="per" placeholder="Enter tip %">
 
         <button id="calculate" onclick="calculateTip()">CALCULATE</button>
 
-        <label for="cal">Totle:</label>
-
-        <script src="Tip.js"></script>
+        <label>Total:</label>
+        <p id="result"></p>
     </div>
+
+    <script src="Tip.js"></script>
 </body>
 </html>
